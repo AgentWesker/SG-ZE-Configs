@@ -1,0 +1,63 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"PrimalGroudonHP"
+		"CustomText"		"Primal Groudon"
+	}
+	"1"
+	{
+		"HP_counter"		"skuntankhealth"
+		"CustomText"		"Skuntank"
+	}
+	"2"
+	{
+		"HP_counter"		"puruglyhealth"
+		"CustomText"		"Purugly"
+	}
+	"3"
+	{
+		"HP_counter"		"finalkirlia_hp"
+		"CustomText"		"Crobat"
+	}
+	"4"
+	{
+		"HP_counter"		"groudonhp"
+		"CustomText"		"Groudon"
+	}
+	"5"
+	{
+		"HP_counter"		"crobatfinal2_health"
+		"CustomText"		"Crobat"
+	}
+	"6"
+	{
+		"HP_counter"		"weavilefinalhp"
+		"CustomText"		"Weavile"
+	}
+	"7"
+	{
+		"HP_counter"		"honchkrowhp"
+		"CustomText"		"Honchkrow"
+	}
+	"8"
+	{
+		"HP_counter"		"crobatcyrushp"
+		"CustomText"		"Crobat"
+	}
+	"9"
+	{
+		"HP_counter"		"weavilehp"
+		"CustomText"		"Weavile"
+	}
+	"10"
+	{
+		"HP_counter"		"giratinahp"
+		"CustomText"		"Giratina"
+	}
+	"11"
+	{
+		"HP_counter"		"Arceus_Judgement_HP"
+		"CustomText"		"Arceus Judgement"
+	}
+}

@@ -1,0 +1,34 @@
+modify:
+{
+	match:
+	{	
+	"classname" "trigger_once"
+	"hammerid" "20550"
+	}
+	delete:
+	{
+	"OnStartTouch" "laser_timerAddOutputLowerRandomBound 0.611"
+	"OnStartTouch" "laser_timerAddOutputUpperRandomBound 0.711"
+	}
+	insert:
+	{
+	"OnStartTouch" "laser_timerAddOutputLowerRandomBound 0.811"
+	"OnStartTouch" "laser_timerAddOutputUpperRandomBound 0.811"
+	}
+}
+{
+	match:
+	{	
+	"classname" "logic_auto"
+	"hammerid" "14002"
+	}
+	insert:
+	{
+	"OnMultiNewRound" "commandCommandsay *** Stripper fix enabled ***3-1"
+	}
+}
+filter:
+{
+"classname" "trigger_multiple"
+"hammerid" "24536"
+}

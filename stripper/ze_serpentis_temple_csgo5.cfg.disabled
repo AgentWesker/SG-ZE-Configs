@@ -1,0 +1,12 @@
+modify:
+{
+	match:
+	{
+	"classname" "trigger_look"
+	"targetname" "mboss_look_trigger"
+	}
+	replace:
+	{
+	"LookTime" "0.4"
+	}
+}

@@ -1,0 +1,9 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"ph_item_balrog_hp" //targetname of the func_breakable, func_physbox or func_physbox_multiplayer
+		"CustomText"		"Balrog" //custom name to show in the hud
+	}
+}

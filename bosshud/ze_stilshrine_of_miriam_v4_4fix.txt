@@ -1,0 +1,57 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"DragonGetHP"
+		"HPbar_counter"		"Dragon_DieHP"
+		"HPinit_counter"	"DragonBackHP"
+		"CustomText"		"Dragon"
+		"HPbar_max"			"6"
+	}
+	"1"
+	{
+		"HP_counter"		"Gabranth_laserHP"
+		"CustomText"		"Gabranth"
+	}
+	"2"
+	{
+		"HP_counter"		"Cactus_HP"
+		"CustomText"		"Cactus"
+	}
+	"3"
+	{
+		"HP_counter"		"LVL2_Gabranth_laserHP"
+		"CustomText"		"Gabranth"
+	}
+	"4"
+	{
+		"HP_counter"		"Judge_Zargabaath_HP"
+		"CustomText"		"Judge Zargabaath"
+	}
+	"4"
+	{
+		"HP_counter"		"Bomb_HP"
+		"CustomText"		"Bomb"
+	}
+	"5"
+	{
+		"HP_counter"		"Vyraal_HP"
+		"HPbar_counter"		"Vyraal_endHP"
+		"HPinit_counter"	"HP1CounterBackUp"
+		"CustomText"		"Vyraal"
+		"HPbar_max"			"6"
+	}
+	"6"
+	{
+		"HP_counter"		"Judge_BerganM_HP"
+		"HPbar_counter"		"M_Bergan_HP"
+		"HPinit_counter"	"HP4CounterBackUp"
+		"CustomText"		"Judge Bergan"
+		"HPbar_max"			"6"
+	}
+	"7"
+	{
+		"HP_counter"		"Bergan_HP"
+		"CustomText"		"Bergan" 
+	}
+}

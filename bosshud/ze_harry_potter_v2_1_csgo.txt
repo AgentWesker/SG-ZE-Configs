@@ -1,0 +1,37 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"map_boss_counter2"
+		"HPbar_counter"		"map_boss_counter3"
+		"CustomText"		"Boss"
+		"HPbar_mode"		"2"
+		"RepeatBoss"		"1"
+	}
+	"1"
+	{
+		"HP_counter"		"stage1_boss_attack_wall_c2"
+		"CustomText"		"Rock Wall"
+	}
+	"2"
+	{
+		"HP_counter"		"stage5_n_death2_c2"
+		"HPbar_counter"		"stage5_n_death2_c3"
+		"CustomText"		"Deatheater (2)"
+		"HPbar_mode"		"2"
+	}
+	"3"
+	{
+		"HP_counter"		"stage5_n_death1_c2"
+		"HPbar_counter"		"stage5_n_death1_c3"
+		"CustomText"		"Deatheater (1)"
+		"HPbar_mode"		"2"
+	}
+	"4"
+	{
+		"HP_counter"		"stage4_miniboss_counter2"
+		"HPbar_counter"		"stage4_miniboss_counter3"
+		"CustomText"		"Boss"
+		"HPbar_mode"		"2"
+	}
+}

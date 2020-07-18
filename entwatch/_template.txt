@@ -1,0 +1,82 @@
+//*********************************************************
+//*********************************************************
+//https://www.steam-gamers.net/forum/showthread.php?t=68778
+//
+//NEW ENTWATCH
+//
+//"entities"
+//{
+//	"0"
+//	{
+//		"name"				""			//String, FullName of Item (Chat)
+//		"shortname"			""			//String, ShortName of Item (Hud)
+//		"color"				""			//String, One of the colors. (Chat, Glow)
+//		"buttonclass"			""			//String, Button Class, May matter "game_ui" for Right Click activation method
+//		"filtername"			""			//String, Filter for Activator
+//		"blockpickup"			"false"			//Bool, The item cannot be pick up
+//		"allowtransfer"			"false"			//Bool, Allow admins to transfer an item
+//		"forcedrop"			"false"			//Bool, Upon death or disconnection of the player, the item will be thrown out
+//		"chat"				"false"			//Bool, Display chat items
+//		"hud"				"false"			//Bool, Display Hud items
+//		"hammerid"			"0"			//Integer, Special weapon HammerID
+//		"mode"				"0"			//Integer, Mode for Item. 1 = Spam protection only, 2 = Cooldowns, 3 = Limited uses, 4 = Limited uses with cooldowns, 5 = Cooldowns after multiple uses
+//		"maxuses"			"0"			//Integer, Maximum uses for modes 3,4,5
+//		"cooldown"			"0"			//Integer, Cooldown of item for modes 2,4,5
+//		"buttonid"			"0"			//Integer, NEW! Allows you to set the main button for which the cooldown will be considered. Use HammerID of button
+//		"trigger"			"0"			//Integer, Sets a trigger that a restrict player cannot activate
+//		"pt_spawner"			""			//String, NEW! Allows admins to spawn items. Can break the gameplay of the game on the map. Indicate Point_Template, which spawn the item
+//		"physbox"			"false"			//Bool, Need module physbox. May be omitted. If the item has a func_physbox, then teammates can shoot through him. Also the item does not ricochet grenades
+//	}
+//}
+//
+//OLD ENTWATCH
+//
+//"entities"
+//{
+//	"0" //Simple order of items starting from 0, for next items use 1,2,3 etc.
+//	{
+//		"name" "" //This is what will be displayed in chat (ie. Player has picked up Heal Materia)
+//		"shortname" "" //This is what you will see in the scoreboard (limited space, so please use shortened names like Heal)
+//		"game_ui_name" "" //Should leave this blank, unless the specified item uses game_ui to control actions (ie.Dovakhin -Skyrim)
+//		"color" "" //example: "{darkred}" Specifies the color of the item when displayed in the chat. Color combinations below
+//		"buttonclass" "" //In most cases it's func_button, but others can happen, like func_door
+//		"filtername" "" //No need to fill this, but it's a "filtername" keyvalue in the weapon_* entity
+//		"hasfiltername" "false" //Leave this false
+//		"blockpickup" "false" //Make it pickable or not
+//		"allowtransfer" "true" //Self explanatory
+//		"forcedrop" "true" //Drop the item on death or not
+//		"chat" "true" //Show it in chat or not
+//		"hud" "true" //Display in scoreboard or not
+//		"hammerid" "0" //This is the "hammerid" of the weapon_* entity that carries the item. Instructions below.
+//		"mode" "0" // 1-spam protection only, 2 - unlimited uses with cooldown, 3 - max uses, 4 - max uses with cooldowns between each use, 5 - max uses with cooldown after those uses (ie. use 3 times > cooldown > use 3 times > cd)
+//		"maxuses" "0" //Self explanatory
+//		"cooldown" "0" //Time before being able to use again
+//		"maxamount" "0" //How many instances of this item can be in the map. ze_toaster is a good example. (obviously put 1 as a starting value if you want it to work)
+//	}
+//}
+//
+//*********************************************************
+//*********************************************************
+"entities"
+{
+	"0"
+	{
+		"name"              ""
+		"shortname"         ""
+		"game_ui_name"		""
+		"color"             ""
+		"buttonclass"       ""
+		"filtername"        ""
+		"hasfiltername"     "false"
+		"blockpickup"       "false"
+		"allowtransfer"     "true"
+		"forcedrop"         "true"
+		"chat"              "true"
+		"hud"               "true"
+		"hammerid"          "0"
+		"mode"              "0"
+		"maxuses"           "0"
+		"cooldown"          "0"
+		"maxamount"         "0"
+	}
+}
